@@ -3,7 +3,7 @@
   <ThingDef ParentName="BuildingBase">
     <defName>AvaliBasicTurret</defName>
     <label>Avali turret</label>
-    <description>A lightweight railgun turret, designed for long range combat. It is somewhat less durrable than it's human-built counterparts, but has great long range accuracy.</description>
+    <description>A lightweight Avali rail turret. Generally used for long-range defence. Whilst its shots are accurate and strong, it has a slower firerate and less structural integrity when compared to its common Terran counterparts.</description>
     <thingClass>Building_TurretGun</thingClass>
     <graphicData>
       <texPath>avali/buildings/turrets/basic_turret_base</texPath>
@@ -120,7 +120,7 @@
   <ThingDef ParentName="BaseWeaponTurret">
     <defName>AvaliBasicTurretGun</defName>
     <label>Basic avali turret gun</label>
-    <description>A automatic railgun, made to be mounted to an avali turret.</description>
+    <description>An automatic railgun, made to be mounted to an avali turret.</description>
     <graphicData>
       <texPath>avali/buildings/turrets/basic_turret_head</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -156,7 +156,7 @@
     <defName>AvaliMiniGunTurret</defName>
     <size>(2,2)</size>
     <label>Avali minigun turret</label>
-    <description>A heavy turret, with two avali miniguns onboard. Due to also being a railgun of avali design, it performs best at long range.</description>
+    <description>A heavy Avali rotary gun turret. </description>
     <thingClass>Building_TurretGun</thingClass>
     <graphicData>
       <texPath>avali/buildings/turrets/Avali_Turret_Base_2x2</texPath>
